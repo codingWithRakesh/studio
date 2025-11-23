@@ -17,7 +17,7 @@ export default function ManagePostsPage() {
     getAllPosts, 
     editPost, 
     deletePost 
-  } = postStore();
+  } = postStore()
 
   // Fetch all posts on component mount
   useEffect(() => {
